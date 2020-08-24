@@ -1,0 +1,45 @@
+.wrapper {
+    display: block;
+}
+
+.block {
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+#gallery {
+    margin: 0 auto;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+#gallery li {
+
+    margin-right: 20px;
+}
+
+#gallery li img {
+    border: 10px solid black;
+}
+
+#validation-input {
+    border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+    border-color: #4caf50;
+}
+
+#validation-input.invalid {
+    border-color: #f44336;
+}
